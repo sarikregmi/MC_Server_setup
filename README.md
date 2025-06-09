@@ -2,8 +2,6 @@
 A Python 3 program that makes Minecraft server set-up easy
 
 
-USE: (python3 Mc_Server_setup.py) to run in the command line 
-This is just a prototype
 
 
 
@@ -15,6 +13,14 @@ Python 3: https://www.python.org/downloads/
 
 Java 21. 
 
-. winget install Microsoft.OpenJDK.21: for windows
+> winget install Microsoft.OpenJDK.21: for windows
 
-. sudo apt install openjdk-21-jdk-headless: for Linux to install Java 
+> sudo apt install openjdk-21-jdk-headless: for Linux to install Java, 
+
+To install all Python requirements
+> pip install -r requirements.txt
+
+
+After all, you  run the program with this command in the terminal > python3 Mc_Server_setup.py  
+
+Remember this is just a prototype
